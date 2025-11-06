@@ -1,6 +1,5 @@
 # MicrosoftAIMLProfessionalCertificate
 This repository includes all the projects, notes, and resources from my Microsoft AI &amp; ML Professional Certificate program.
-Here’s a **concise bullet-point (Stichpunkte)** summary of your text:
 
 ---
 
