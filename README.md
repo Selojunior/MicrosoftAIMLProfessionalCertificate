@@ -104,4 +104,29 @@ This repository includes all the projects, notes, and resources from my Microsof
 * Mastering these components enables **scalable, efficient, and maintainable AI/ML systems**.
 
 --------
+ **Azure Machine Learning Service** and **Azure App Service** can *both* host models, but they serve **very different purposes**.
+
+### ⚙️ **Key Difference Between Azure Machine Learning Service and Azure App Service**
+
+| Feature             | **Azure Machine Learning Service (Azure ML)**                                                                           | **Azure App Service**                                                                     |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| **Primary Purpose** | End-to-end platform for **building, training, deploying, and managing ML models**.                                      | Platform for **hosting and running web applications, APIs, and back-end services**.       |
+| **Focus Area**      | Machine learning lifecycle management (experimentation → training → deployment → monitoring).                           | General web app hosting (supports .NET, Python, Node.js, Java, etc.).                     |
+| **Deployment Type** | Deploys **ML models as REST APIs** using Azure ML endpoints or AKS (optimized for inference).                           | Deploys **web apps or APIs** — can host ML models only if you manually integrate them.    |
+| **Model Training**  | ✅ Built-in environment for **model training, tuning, and AutoML**.                                                      | ❌ No training features — it only hosts already trained models or applications.            |
+| **Scalability**     | Designed for **ML workloads** — supports batch inference, real-time scoring, GPU acceleration, and scaling through AKS. | Designed for **web workloads** — autoscaling for web traffic and HTTP requests.           |
+| **Integration**     | Deep integration with **Azure Databricks, Data Factory, and Data Lake**.                                                | Integrates easily with **App Insights, Functions, and SQL Databases** for app logic.      |
+| **Monitoring**      | Built-in **model performance and drift monitoring**.                                                                    | Focuses on **application health and availability monitoring** (via Application Insights). |
+| **Ideal Use Case**  | For **data scientists and ML engineers** managing the full ML lifecycle.                                                | For **developers** deploying apps or APIs that might consume ML models.                   |
+| **Example**         | Train a churn prediction model, deploy it as an API endpoint for real-time scoring.                                     | Build a web dashboard that calls the churn prediction API hosted in Azure ML.             |
+
+---
+
+### 🧠 **In simple terms:**
+
+* **Azure Machine Learning Service** → Where you **create, train, and serve ML models**.
+* **Azure App Service** → Where you **build and host web apps or APIs** that can *use* those ML models.
+
+---
+
 
