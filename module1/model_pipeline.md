@@ -47,7 +47,7 @@
 
 ### **Summary – Building and Deploying AI/ML Solutions in Azure**
 
-####  **Goal**
+####  **Goal**
 
 * Transform AI models from concepts into real-world, deployed solutions.
 * Understand how **data pipelines**, **model development frameworks**, and **deployment platforms** work together in Azure.
@@ -101,7 +101,7 @@
 --------
  **Azure Machine Learning Service** and **Azure App Service** can *both* host models, but they serve **very different purposes**.
 
-### ⚙️ **Key Difference Between Azure Machine Learning Service and Azure App Service**
+###  **Key Difference Between Azure Machine Learning Service and Azure App Service**
 
 | Feature             | **Azure Machine Learning Service (Azure ML)**                                                                           | **Azure App Service**                                                                     |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
@@ -117,7 +117,7 @@
 
 ---
 
-### 易 **In simple terms:**
+###  **In simple terms:**
 
 * **Azure Machine Learning Service** → Where you **create, train, and serve ML models**.
 * **Azure App Service** → Where you **build and host web apps or APIs** that can *use* those ML models.
@@ -126,7 +126,7 @@
 
 ### **Summary – Data Sources and Pipelines in Azure AI/ML**
 
-####  **Goal**
+####  **Goal**
 
 * Learn how to transform raw, real-world data into clean, useful data for AI/ML.
 * Understand how **data sources** and **data pipelines** form the backbone of AI/ML projects.
@@ -187,7 +187,7 @@
   * Unified workflow reduces errors, simplifies processes, and saves time.
 
 
-### ** Key Takeaways**
+### ** Key Takeaways**
 
 * **Understanding data variety** helps design effective pipelines.
 * **Pipelines ensure data quality** — accuracy, consistency, and readiness for modeling.
@@ -198,7 +198,7 @@
 
 ### **Summary – Structure and Role of Data Sources and Pipelines in AI/ML**
 
-#### ️ **Introduction**
+####  **Introduction**
 
 * Data is the **foundation** of every AI/ML project — without quality data, models fail.
 * **Data pipelines and sources** are essential for ensuring data is clean, organized, and ready for analysis.
@@ -206,7 +206,7 @@
 
 ---
 
-### ** Learning Objectives**
+### ** Learning Objectives**
 
 By the end, you can:
 
@@ -277,6 +277,4 @@ By the end, you can:
 * High-quality data pipelines and sources are **vital for AI/ML success**.
 * Efficient design ensures accurate, scalable, and insightful models.
 * Mastering Azure tools like **Data Factory**, **Databricks**, and **ML Service** equips you to manage **real-world data challenges** effectively.
-
----
 
