@@ -1,5 +1,3 @@
----
-
 ### **Summary – Azure AI/ML Infrastructure**
 
 * **Goal:** Transform machine learning models into scalable and efficient AI solutions using Microsoft Azure.
