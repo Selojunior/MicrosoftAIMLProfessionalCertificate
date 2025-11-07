@@ -92,7 +92,7 @@
   * **Azure App Services** – host ML models within web apps with built-in scaling and monitoring.
 * **Purpose:** Ensure models are accessible, scalable, and continuously maintained.
 
-### **里 Overall Summary**
+### **Overall Summary**
 
 * The **three pillars** — *Data Pipelines, Model Frameworks, and Deployment Platforms* — form the backbone of AI/ML production in Azure.
 * They take a project from **raw data → trained model → deployed, real-world solution**.
@@ -234,6 +234,11 @@ By the end, you can:
   * **Real-time Data Streams** – e.g., *IoT sensors, social media APIs*
 
     * Provide continuous live data for real-time analytics or predictions.
+    * Data ingestion tool: 
+
+        Azure Data Factory isn’t ideal for real-time streaming (it’s batch-oriented).
+        
+         Use Azure IoT Hub or Azure Event Hubs for real-time sensor data ingestion, and Data Factory for batch historical ingestion.
 
 ---
 
