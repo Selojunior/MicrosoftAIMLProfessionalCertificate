@@ -36,3 +36,112 @@ The success of any AI/ML project depends heavily on the **quality and relevance 
 
 ---
 
+# ✅ **Summary: Error Identification in Data Collection (Stichpunkte)**
+
+## **🔹 Why it’s important**
+
+* Data collection quality directly affects ML model accuracy.
+* Errors introduce bias, inconsistencies, and unreliable results.
+
+---
+
+# **🔹 Common Types of Data Collection Errors**
+
+### **1. Sampling errors**
+
+* Sample not representative of the population.
+* Caused by small sample size or biased sampling.
+* Example: feedback collected from only one demographic.
+
+### **2. Measurement errors**
+
+* Faulty measurement tools or incorrect recording.
+* Example: uncalibrated sensor recording wrong values.
+
+### **3. Data entry errors**
+
+* Mistakes during manual data input.
+* Typing errors, wrong formats, missing values.
+* Example: entering “5.0” instead of “50”.
+
+### **4. Response bias**
+
+* Respondents give inaccurate answers.
+* Caused by poorly designed questions or social pressure.
+* Example: underreporting socially undesirable behavior.
+
+### **5. Non-response errors**
+
+* Large portion of participants do not respond.
+* Leads to incomplete or biased data.
+* Example: many dropouts in long-term studies.
+
+### **6. Systematic errors**
+
+* Consistent and repeatable errors caused by flawed equipment or method.
+* Example: scale always measures −5 grams from true value.
+
+---
+
+# 🔹 **Methods for Identifying Data Collection Errors**
+
+### **1. Descriptive statistics**
+
+* Use mean, median, std. deviation to detect anomalies.
+* Sudden large deviations indicate possible errors.
+
+### **2. Data visualization**
+
+* Use histograms, boxplots, scatterplots.
+* Quickly reveal outliers and strange patterns.
+
+### **3. Cross-validation**
+
+* Compare collected data with trusted external sources.
+* Differences signal data collection problems.
+
+### **4. Data auditing**
+
+* Manual or systematic check of data procedures.
+* Reveals faulty tools, missing fields, or repeated errors.
+
+### **5. Consistency checks**
+
+* Ensure data matches across sources or over time.
+* Sudden spikes or drops may indicate errors.
+
+### **6. Control groups / redundant measurements**
+
+* Collect the same data twice to compare results.
+* Differences indicate sensor or process malfunction.
+
+---
+
+# 🔹 **Strategies to Reduce or Prevent Data Collection Errors**
+
+### **1. Standardize data collection procedures**
+
+* Clear protocols for how data is collected, recorded, and reported.
+
+### **2. Train data collectors**
+
+* Ensure staff understand tools and procedures.
+* Reduces human mistakes.
+
+### **3. Automate data collection**
+
+* Reduce manual entry errors.
+* Use systems with built-in validation rules.
+
+### **4. Real-time error detection**
+
+* Use software to detect inconsistencies instantly.
+* Allows immediate correction.
+
+### **5. Regularly review and update methods**
+
+* Improve collection processes over time.
+* Replace outdated tools and fix weaknesses.
+
+---
+
