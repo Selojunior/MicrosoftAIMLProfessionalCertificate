@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments (your env is called "ml")
+venv/
+.venv/
+env/
+.conda/
+ml/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets
+dataset/ml/
+dataset/
+
+# ML models
+*.h5
+*.pt
+*.pth
+*.onnx
+*.sav
+*.pkl
+models/
+
+# Logs & artifacts
+*.log
+logs/
+
+# Notebook exports
+*.html
+*.pdf
+
+# OS / Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
