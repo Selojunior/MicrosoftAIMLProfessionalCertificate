@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments (exclude your env called "ml")
+ml/
+venv/
+.venv/
+env/
+.conda/
+
+# Jupyter cache
+.ipynb_checkpoints/
+
+# Dataset folder:
+# Ignore everything INSIDE dataset/
+dataset/*
+
+# BUT keep your notebooks (allow all .ipynb files)
+!dataset/*.ipynb
+
+# Keep CSV files
+!dataset/*.csv
+
+# Keep models.md
+!dataset/models.md
+
+# Ignore dataset/ml (your environment inside dataset)
+dataset/ml/
+
+# ML models
+*.h5
+*.pt
+*.pth
+*.onnx
+*.sav
+*.pkl
+models/
+
+# Logs & artifacts
+*.log
+logs/
+
+# Notebook exports
+*.html
+*.pdf
+
+# OS / Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
